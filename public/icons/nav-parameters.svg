@@ -1,0 +1,17 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_0_167" fill="white">
+<rect x="1" y="8" width="5" height="4" rx="1"/>
+</mask>
+<rect x="1" y="8" width="5" height="4" rx="1" stroke="#EAEAEA" stroke-width="3" stroke-linecap="round" mask="url(#path-1-inside-1_0_167)"/>
+<path d="M3.5 15L3.5 11.0625M3.5 1L3.5 8.4375" stroke="#EAEAEA" stroke-width="1.5" stroke-linecap="round"/>
+<mask id="path-3-inside-2_0_167" fill="white">
+<rect x="11" y="7" width="5" height="4" rx="1" transform="rotate(-180 11 7)"/>
+</mask>
+<rect x="11" y="7" width="5" height="4" rx="1" transform="rotate(-180 11 7)" stroke="#EAEAEA" stroke-width="3" stroke-linecap="round" mask="url(#path-3-inside-2_0_167)"/>
+<path d="M8.5 1L8.5 3.84375M8.5 15L8.5 6.6875" stroke="#EAEAEA" stroke-width="1.5" stroke-linecap="round"/>
+<mask id="path-5-inside-3_0_167" fill="white">
+<rect x="11" y="9" width="5" height="4" rx="1"/>
+</mask>
+<rect x="11" y="9" width="5" height="4" rx="1" stroke="#EAEAEA" stroke-width="3" stroke-linecap="round" mask="url(#path-5-inside-3_0_167)"/>
+<path d="M13.5 15V12.1562M13.5 1L13.5 9.3125" stroke="#EAEAEA" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
