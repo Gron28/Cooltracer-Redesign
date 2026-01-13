@@ -1,56 +1,48 @@
-// Cooltracer Design System Colors
 export const colors = {
-  // Background Colors
   background: {
-    primary: '#11151C',    // Main dashboard background
-    secondary: '#1f2937',  // Secondary backgrounds
-    tertiary: '#05040D',   // Dark accents
+    primary: 'hsl(var(--background))',
+    secondary: 'hsl(var(--secondary))',
+    tertiary: 'hsl(var(--muted))',
   },
 
-  // Border Colors
   border: {
-    primary: '#29292D',    // Main borders
-    secondary: '#374151',  // Secondary borders
-    accent: '#1F77B4',     // Blue accent borders
+    primary: 'hsl(var(--border))',
+    secondary: 'hsl(var(--input))',
+    accent: 'hsl(var(--ring))',
   },
 
-  // Text Colors
   text: {
-    primary: '#EAEAEA',    // Main text
-    secondary: '#9ca3af',  // Secondary text
-    muted: '#6b7280',      // Muted text
+    primary: 'hsl(var(--foreground))',
+    secondary: 'hsl(var(--muted-foreground))',
+    muted: 'hsl(var(--muted-foreground))',
   },
 
-  // Interactive Colors
   interactive: {
-    hover: '#1A1A24',      // Hover states
-    active: '#266599',     // Active states
+    hover: 'hsl(var(--accent))',
+    active: 'hsl(var(--primary))',
   },
 
-  // Brand Colors
   brand: {
-    primary: '#1F77B4',    // Primary blue
-    secondary: '#5BB3FA',  // Light blue
-    accent: '#27D699',     // Green accent
+    primary: 'hsl(var(--primary))',
+    secondary: 'hsl(var(--chart-4))',
+    accent: 'hsl(var(--chart-1))',
   },
 
-  // Chart Colors
   chart: {
-    blue: '#0ea5e9',       // Chart blue
-    green: '#10b981',      // Chart green
-    red: '#ef4444',        // Chart red
+    blue: 'hsl(var(--chart-2))',
+    green: 'hsl(var(--chart-1))',
+    red: 'hsl(var(--chart-5))',
+    grey: 'hsl(var(--chart-3))',
   },
 
-  // Status Colors
   status: {
-    success: '#10b981',    // Green
-    warning: '#f59e0b',    // Yellow/Orange
-    error: '#ef4444',      // Red
-    info: '#3b82f6',       // Blue
+    success: 'hsl(var(--chart-1))',
+    warning: '#f59e0b',
+    error: 'hsl(var(--destructive))',
+    info: 'hsl(var(--chart-2))',
   },
 } as const;
 
-// Export individual color groups for easier importing
 export const backgroundColors = colors.background;
 export const borderColors = colors.border;
 export const textColors = colors.text;
